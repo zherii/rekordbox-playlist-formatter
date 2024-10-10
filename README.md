@@ -26,13 +26,11 @@ You can enter the file name with either the `.txt` ending, or without.
 
 Options:
 
-	```
 	-t	output with timestamp template instead of enumeration
 	-c	output with colon in between artist and track instead of dash
-	```
 	
 Examples:
-	```
+
 	1. I want my text outputted with enumeration and dashes
 		`python rbhis.py jazzy.txt`
 		1: Bonobo - Black Sands
@@ -50,4 +48,3 @@ Examples:
 		00:00 Bonobo: Black Sands
 		00:00 Bonobo: Kiara
 		...
-	```
