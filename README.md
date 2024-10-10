@@ -26,31 +26,31 @@ You may enter the file name with or without the `.txt` ending.
 
 Options:
 
--t	output with timestamp template instead of enumeration
--c	output with colon in between artist and track instead of dash
-	
+- t	output with timestamp template instead of enumeration
+- c	output with colon in between artist and track instead of dash
+
 Examples:
 
 1. I want my text outputted with enumeration and dashes
-	```
-	python rbpf.py jazzy.txt
-	```
-	1: Bonobo - Black Sands
-	2: Bonobo - Kiara
-	...
+```
+python rbpf.py jazzy.txt
+```
+- 1: Bonobo - Black Sands
+- 2: Bonobo - Kiara
+- ...
 		
 2. I want my text outputted with timestamp templates and dashes
-	```
-	python rbpf.py jazzy.txt -t
-	```
-	00:00 Bonobo - Black Sands
-	00:00 Bonobo - Kiara
-	...
+```
+python rbpf.py jazzy.txt -t
+```
+- 00:00 Bonobo - Black Sands
+- 00:00 Bonobo - Kiara
+- ...
 	
 3. I want my text outputted with timestamp templates and colons
-	```
-	python rbpf.py jazzy -ct
-	```
-	00:00 Bonobo: Black Sands
-	00:00 Bonobo: Kiara
-	...
+```
+python rbpf.py jazzy -ct
+```
+- 00:00 Bonobo: Black Sands
+- 00:00 Bonobo: Kiara
+- ...
