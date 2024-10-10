@@ -26,8 +26,8 @@ You may enter the file name with or without the `.txt` ending.
 
 Options:
 
-- t	output with timestamp template instead of enumeration
-- c	output with colon in between artist and track instead of dash
+- -t	output with timestamp template instead of enumeration
+- -c	output with colon in between artist and track instead of dash
 
 Examples:
 
