@@ -19,13 +19,16 @@ Automatically format rekordbox playlists or histories into neat .txt files with 
 The file will be saved as `FILENAME_out.txt` in the same folder.
 
 Default line output format is `[n]: [artist] - [track]`
+
 You can enter the file name with either the `.txt` ending, or without.
 
 Options:
-	* -t	output with timestamp template instead of enumeration (00:00, vs. 1. 2. 3. ...). For use with setlists for example
-	* -c	output with colon in between artist and track instead of line (artist: track, vs. artist - track)
+
+	*-t	output with timestamp template instead of enumeration (00:00, vs. 1. 2. 3. ...). For use with setlists for example
+	*-c	output with colon in between artist and track instead of line (artist: track, vs. artist - track)
 	
 Examples:
+
 	*I want my text outputted with enumeration and dashes
 		`python rbhis.py jazzy.txt`
 		1: Bonobo - Black Sands
