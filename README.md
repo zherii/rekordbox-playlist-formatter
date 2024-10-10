@@ -22,7 +22,7 @@ The file will be saved as `FILENAME_out.txt` in the same folder.
 
 Default line output format is `[n]: [artist] - [track]`
 
-You can enter the file name with either the `.txt` ending, or without.
+You can may the file name with or without the `.txt` ending.
 
 Options:
 
